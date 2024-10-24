@@ -1,0 +1,89 @@
+/* Adjust the content padding to avoid overlap */
+ion-content {
+  padding-top: 20px;
+}
+
+.header-padding{
+  padding: var(--ion-padding, 8px);
+}
+
+ion-toolbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  --min-height:64px!important;
+  --background: white;
+}
+
+.icon-margin-end{
+  margin: var(--ion-margin-end, 4px);
+}
+
+.icon-margin-start{
+    margin: var(--ion-margin-start, 24px);
+}
+
+ion-fab-button .text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 20px; /* Adjust font size as needed */
+  font-weight: 600;
+  color: black; /* Adjust text color as needed */
+}
+
+.toolbar-font-size{
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
+}
+
+
+.title-text{
+  font-weight:900;
+  // font-size: 20px;
+}
+
+.image-avatar{
+  border-radius: 50%;
+  height: 56px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+ion-fab{
+  display: flex;
+  flex-direction: column;
+}
+
+
+ion-fab-button {
+  position: relative;
+  width: 56px; /* Your fab button width */
+  height: 56px; /* Your fab button height */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid #00A8E2;
+  --background: white;
+}
+
+.fab-button-margin-start{
+  margin: var(--ion-margin-start, 4px);
+}
+
+.ion-content-padding{
+  --padding-top: 0px;
+  --padding-bottom: 0px;
+  --padding-end: 0px;
+  --padding-start: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
